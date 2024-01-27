@@ -1,43 +1,16 @@
 .main {
-  height: 700px;
-  width: 1366px;
   position: relative;
 }
-
-.index-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  opacity: 30%;
-}
-
-.text-overlay {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: calc(50% - 35px);
-  width: 100%;
-  padding: 0 60px;
-}
-
-.main-title {
-  font-size: 70px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.sub-title {
-  font-size: 18px;
-  padding-left: 6px;
-}
-
-.service-btn {
+.image-hidden {
   height: 100px;
-  width: 250px;
-  text-align: center;
-  line-height: 100px;
-  border-radius: 10px;
-  font-size: 24px;
-  font-weight: 600;
-  background-color: #F0F0F0;
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  left: 100px;
 }
+
+.image-overlay {
+  position: absolute;
+  opacity: 100%;
+}
+
